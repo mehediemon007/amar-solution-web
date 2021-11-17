@@ -11,6 +11,7 @@
     --heading-color:#243E8B;
     --text-color:#243E8B;
     --border-color:rgba(135,163,255,1);
+    --table-data-color:#B5AFC7;
 
     /* Typography */
     --body-font: 'Kalpurush', sans-serif;
@@ -528,7 +529,7 @@ button {
     align-items: center;
     background-color: #f6f6f7;
     padding: 40px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,.7);
+    box-shadow: 10px 10px 10px rgba(0,0,0,.6);
 }
 
 .single-price-card h4{
@@ -569,6 +570,15 @@ td{
 th:not(:first-of-type),
 td:not(:first-of-type){
     text-align: center;
+}
+
+td i{
+    font-size: 22px;
+    color: #0AAE38;
+}
+
+td i.fa-times{
+    color: #fb6d6d;
 }
 
 /* Device */
