@@ -296,6 +296,7 @@ button {
     visibility: hidden;
     opacity: 0;
     transition: var(--transition);
+    z-index: 100;
 }
 
 .mega-menu{
@@ -513,6 +514,10 @@ button {
     border-radius: 5px;
     text-align: center;
     line-height: 60px;
+}
+
+.register-btn:hover{
+    color: #fff;
 }
 
 /* Product Features */
