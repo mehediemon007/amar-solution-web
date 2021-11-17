@@ -364,6 +364,7 @@ button {
     background-color: #fff;
     padding: 40px 80px;
     z-index: 1;
+    box-shadow: 0 0 var(--blur-small) rgba(135,163,255,1);
     transition: right .5s ease-in-out;
 }
 
