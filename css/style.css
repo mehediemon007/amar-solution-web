@@ -255,11 +255,12 @@ button {
 
 .nav-menu li{
     display: inline-block;
+    position: relative;
 }
 
 .nav-menu li a{
     position: relative;
-    display: inline-block;
+    display: block;
     font-size: 18px;
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
@@ -267,17 +268,71 @@ button {
     transition: var(--transition);
 }
 
-.nav-menu li a.active::before,
-.nav-menu li a:hover::before{
+.nav-menu li a::before{
     position: absolute;
     content: "";
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    top: 50%;
+    top: 48%;
     left: -12px;
     background-color: var(--text-color);
-    transform: translateY(-50%);
+    transform: translateY(-48%);
+}
+
+.nav-menu li a.active::before,
+.nav-menu li a:hover::before{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 200%;
+    right: 0;
+    width: 250px;
+    padding: 16px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 var(--blur-small) rgba(135,163,255,.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.mega-menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100vw;
+    padding: 80px 450px;
+    left: 50%;
+    transform: translateX(-77%);
+}
+
+.sub-menu li a{
+  padding: 10px 0;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.mega-menu li a{
+    width: 250px;
+    padding: 3px 0;
+}
+
+.sub-menu li a span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.nav-menu li.has-children:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu li a:hover{
+    transform: translateX(10px);
 }
 
 .nav-toggle{
