@@ -87,6 +87,11 @@ ul {
     list-style: none;
 }
 
+li{
+    list-style: none;
+    font-family: var(--body-font);
+}
+
 a{
     font-size: 16px;
     font-family: var(--body-font);
@@ -135,6 +140,18 @@ button {
 
 .pt-50{
     padding-top: 50px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+.pt-200{
+    padding-top: 200px;
+}
+
+.pt-300{
+    padding-top: 300px;
 }
 
 .pb-40{
@@ -195,23 +212,24 @@ button {
 /* ----- Header ------ */
 
 .ams-nav-wrapper{
-    position: relative;
     width: 100%;
     padding: 30px 50px;
+    background-color: #fff;
     border-bottom: 1px solid transparent;
-    transition: var(--transition) linear;
+    transition: all var(--transition) linear;
     z-index: 1;
 }
 
 .header-main .ams-nav-wrapper{
     position: absolute;
+    background-color: transparent;
 }
 
 .ams-nav-wrapper.sticky{
     position: fixed;
     top: 0;
     background-color: #fff;
-    padding: 20px 50px;
+    padding: 10px 50px;
     border-bottom: 1px solid #d5d5d5;
 }
 
@@ -275,13 +293,13 @@ button {
 .ams-sidebar{
     position: fixed;
     top: 0;
-    right: -450px;
-    width: 450px;
+    right: -470px;
+    width: 457px;
     height: 100%;
     background-color: #fff;
     padding: 40px 80px;
     z-index: 1;
-    transition: right .5s ;
+    transition: right .5s ease-in-out;
 }
 
 .ams-sidebar.active{
@@ -356,7 +374,7 @@ button {
     top: 0;
     display: flex;
     align-items: center;
-    padding: 30px 60px;
+    padding: 24px 60px;
     gap: 30px;
     border-radius: 5px;
     box-shadow: 0 0 var(--blur-big) var(--shadow);
@@ -368,7 +386,7 @@ button {
 }
 
 .social-image img{
-    max-width: 80px;
+    max-width: 60px;
 }
 
 /* Features */
@@ -467,6 +485,30 @@ button {
 }
 .single-feature-link img{
     width: 100px;
+    margin-bottom: 16px;
+}
+
+/* Feature Single Pages */
+
+.sec-facility-list li,
+.sec-useage-list li{
+    font-size:20px;
+    color: var(--primary-color);
+}
+
+.sec-facility-list li span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color:#0AAE38;
+    border-radius: 3px;
+    line-height: 24px;
+}
+
+.sec-useage-list li{
     margin-bottom: 16px;
 }
 
