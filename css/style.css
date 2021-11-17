@@ -122,6 +122,10 @@ button {
     margin-top: 50px;
 }
 
+.mt-60{
+    margin-top: 60px;
+}
+
 .mt-100{
     margin-top: 100px;
 }
@@ -160,6 +164,10 @@ button {
 
 .pb-50{
     padding-bottom: 50px;
+}
+
+.pb-60{
+    padding-bottom: 60px;
 }
 
 .pb-100{
@@ -441,14 +449,14 @@ button {
 .register-btn{
     display: inline-block;
     width: 250px;
-    height: 70px;
+    height: 60px;
     font-size: 18px;
     color: #fff;
     font-weight: var(--font-weight-medium);
     background-color: var(--primary-color);
     border-radius: 5px;
     text-align: center;
-    line-height: 70px;
+    line-height: 60px;
 }
 
 /* Product Features */
@@ -510,6 +518,44 @@ button {
 
 .sec-useage-list li{
     margin-bottom: 16px;
+}
+
+/* Price */
+
+.single-price-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f7;
+    padding: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.7);
+}
+
+.single-price-card h4{
+    color: var(--primary-color);
+}
+
+.single-price-card p{
+    font-size: 24px;
+}
+
+.single-price-card p b{
+    font-size: 28px;
+}
+
+.single-price-card p span{
+    font-size: 28px;
+}
+
+/* Price */
+
+.devices p{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.single-device .price{
+    font-weight: var(--font-weight-bold);
 }
 
 
