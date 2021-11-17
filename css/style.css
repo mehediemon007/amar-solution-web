@@ -96,7 +96,7 @@ a{
 }
 
 a:hover{
-    color: #fff;
+    color: var(--primary-color);
 }
 
 input[type="email"],
@@ -115,6 +115,10 @@ button {
 
 .mt-50{
     margin-top: 50px;
+}
+
+.mt-100{
+    margin-top: 100px;
 }
 
 .mb-40{
@@ -161,19 +165,46 @@ button {
     padding: 100px 0;
 }
 
+.sec-spacer-lg{
+    padding: 150px 0 50px;
+}
+
 .sec-heading p{
     font-size: 18px;
     margin-bottom: 0;
 }
 
+.sec-title{
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+.sec-des{
+    font-size:20px;
+    font-weight: var(--font-weight-medium);
+}
+
+.ams-tags .tag{
+    font-size: 20px;
+}
+
+.ams-tags .tag:first-child{
+    font-weight: var(--font-weight-meium);
+}
+
 /* ----- Header ------ */
 
 .ams-nav-wrapper{
-    position: absolute;
+    position: relative;
     width: 100%;
     padding: 30px 50px;
-    transition: all var(--transition) linear;
+    border-bottom: 1px solid transparent;
+    transition: var(--transition) linear;
     z-index: 1;
+}
+
+.header-main .ams-nav-wrapper{
+    position: absolute;
 }
 
 .ams-nav-wrapper.sticky{
@@ -181,6 +212,7 @@ button {
     top: 0;
     background-color: #fff;
     padding: 20px 50px;
+    border-bottom: 1px solid #d5d5d5;
 }
 
 .ams-nav{
@@ -358,7 +390,7 @@ button {
     transition: var(--transition);
 }
 
-.single-feature-card:hover{
+.features-card .single-feature-card:hover{
     transform: translateY(-28px);
     box-shadow: 0 0 20px var(--shadow);
 }
@@ -400,6 +432,44 @@ button {
     text-align: center;
     line-height: 70px;
 }
+
+/* Product Features */
+
+.soft-image{
+    height: 100%;
+    background-image: url("../images/software-mokeup.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.soft-features .single-feature-card{
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0;
+    gap: 24px;
+}
+
+.soft-features-left .single-feature-card{
+    flex-direction: row-reverse;
+}
+
+.soft-features .card-image img{
+    width: 150px;
+}
+
+.soft-features .card-content p{
+    margin-top: 24px;
+}
+
+.single-feature-link{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.single-feature-link img{
+    width: 100px;
+    margin-bottom: 16px;
+}
+
 
 /* Footer */
 
