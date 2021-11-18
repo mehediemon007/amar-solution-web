@@ -18,10 +18,6 @@
        sidebar.classList.remove("active")
    })
 
-//    navMainToggle.addEventListener("click",()=>{
-//        mainNav.classList.toggle("expand");
-//    })
-
 })()
 
 
@@ -30,9 +26,8 @@ $(".toggle-2").click(function(){
     $(".ams-main-nav").slideToggle("100");
 })
 
-$("li.has-children").click(function(e){
-
+$("li.has-children > a").click(function(e){
     e.preventDefault();
-    $(".sub-menu").slideToggle("100")
+    $(this).next(".sub-menu").slideToggle("100")
 
 })

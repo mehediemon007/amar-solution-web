@@ -493,7 +493,7 @@ button {
     align-items: center;
     background-color: #f6f6f7;
     padding: 40px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,.6);
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
 }
 
 .single-price-card h4{
