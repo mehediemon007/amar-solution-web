@@ -40,6 +40,7 @@ body{
     scroll-behavior: smooth;
     vertical-align: baseline;
     overflow-x: hidden;
+    transition: .5s;
 }
 
 img {
@@ -218,6 +219,11 @@ button {
     font-weight: var(--font-weight-meium);
 }
 
+/* body.bg{
+    
+    background-image: linear-gradient(180deg, #FFFFFF 16.15%, #0A95F9 51.56%, #FFFFFF 88.02%);
+} */
+
 /* ----- Header ------ */
 
 .ams-nav-wrapper{
@@ -320,12 +326,11 @@ button {
 .single-category{
     margin-bottom: 30px;
     border-radius: 5px;
-    border:1px solid var(--border-color);
     transition: box-shadow var(--transition);
 }
 
 .single-category:hover{
-    box-shadow: 0 0 var(--blur-small) var(--shadow);
+    box-shadow: 0 0 50PX rgb(36 62 139);
 }
 
 .category-image img{
@@ -337,6 +342,7 @@ button {
     font-size: 18px;
     font-weight: var(--font-weight-medium);
     padding: 20px 16px;
+    background-color: #fff;
 }
 
 /* Social Card */
@@ -347,15 +353,17 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
     padding: 32px 24px;
     gap: 30px;
     border-radius: 5px;
-    box-shadow: 0 0 var(--blur-big) var(--shadow);
-    transition: var(--transition);
+    box-shadow: 0 0 25PX rgb(36 62 139);
+    transition: all var(--transition);
 }
 
 .single-social-card:hover{
     top: -10px;
+    box-shadow: 0 0 50PX rgb(36 62 139);
 }
 
 .social-image img{
