@@ -427,10 +427,6 @@ button {
     gap: 24px;
 }
 
-.soft-features-left .single-feature-card{
-    flex-direction: row-reverse;
-}
-
 .soft-features .card-image img{
     width: 150px;
 }

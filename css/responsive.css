@@ -1,5 +1,10 @@
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
+
+    .px-0{
+        padding: 0;
+    }
+    
     .single-social-card{
         flex-direction: row;
         padding: 24px 60px;
@@ -15,6 +20,10 @@
 
     .ams-review{
         padding: 0 50px;
+    }
+
+    .soft-features-left .single-feature-card{
+        flex-direction: row-reverse;
     }
 }
 
@@ -135,11 +144,25 @@
     }
 }
 
+/* Max Width 1199px */
+@media only screen and (max-width:1199px){
+
+    .soft-image{
+        height: 400px;
+        margin: 10px 0 35px;
+        background-position: left center;
+    }
+}
+
 /* Max Width 991px */
 @media only screen and (max-width:991px){
 
     h2{
         font-size: 36px;
+    }
+
+    .sec-title{
+        font-size: 44px;
     }
 
     .ams-banner{
@@ -155,8 +178,8 @@
         padding-top: 80px;
     }
 
-    .ams-assess-note{
-        padding-top: 100px;
+    .pt-mb-80{
+        padding-top: 80px;
     }
     
     /* Mobile Nav */
@@ -164,6 +187,8 @@
     .ams-main-nav{
         display: none;
     }
+
+    /* Mobile Nav End */
 
     .ams-chat{
         right: 25px;
