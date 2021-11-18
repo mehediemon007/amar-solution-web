@@ -242,6 +242,23 @@ button {
     border-bottom: 1px solid #d5d5d5;
 }
 
+.nav-toggle{
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 30px;
+    background-color:var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.nav-toggle:hover{
+    background-color: var(--secondary-color);
+}
+
 /* Sidebar Nav */
 
 .ams-sidebar{

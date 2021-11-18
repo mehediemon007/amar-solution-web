@@ -125,23 +125,6 @@
     .sub-menu li a:hover{
         transform: translateX(10px);
     }
-    
-    .nav-toggle{
-        width: 40px;
-        height: 40px;
-        font-size: 24px;
-        color: #fff;
-        margin-left: 30px;
-        background-color:var(--primary-color);
-        border-radius: 5px;
-        text-align: center;
-        line-height: 40px;
-        cursor: pointer;
-    }
-    
-    .nav-toggle:hover{
-        background-color: var(--secondary-color);
-    }
 }
 
 /* Max Width 1199px */
@@ -185,7 +168,58 @@
     /* Mobile Nav */
 
     .ams-main-nav{
+        position: absolute;
         display: none;
+        width: 100%;
+        top: 90%;
+        left: 0;
+        background-color: #fff;
+        padding: 24px 50px;
+        box-shadow: 0 10px 20px rgba(135,163,255,.5);
+        transition: display var(--transition);
+    }
+
+    .nav-toggle.toggle-2{
+        position: absolute;
+        top: 24px;
+        right: 50px;
+        transition: var(--transition);
+    }
+
+    .ams-nav-wrapper.sticky .toggle-2{
+        top: 10px;
+    }
+
+    .nav-menu li a{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+        padding: 5px 0;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .nav-menu > li:last-child a{
+        border-bottom: none;
+    }
+
+    .nav-menu li.has-children > a::before{
+        position: absolute;
+        content: "\f107";
+        top: 50%;
+        right: 0;
+        font-family: "Font Awesome 5 Free";
+        font-weight: var(--font-weight-bold);
+        transform: translateY(-50%);
+    }
+
+    .sub-menu{
+        display: none;
+        transition: display var(--transition);
+    }
+    
+    .sub-menu li a {
+        margin-left: 32px;
     }
 
     /* Mobile Nav End */
