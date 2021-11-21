@@ -1,6 +1,10 @@
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
 
+    .ams-banner .banner-content{
+        max-width: 580px;
+    }
+
     .px-0{
         padding: 0;
     }
@@ -171,13 +175,17 @@
         position: absolute;
         display: none;
         width: 100%;
-        top: 80px;
+        top:78px;
         left: 0;
         background-color: #fff;
         padding: 24px 50px;
         box-shadow: 0 10px 20px rgba(135,163,255,.5);
         transition: display var(--transition);
         z-index: 10;
+    }
+
+    .ams-nav-wrapper.sticky .ams-main-nav{
+        top: 61px;
     }
 
     .nav-toggle.toggle-2{

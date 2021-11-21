@@ -30,7 +30,7 @@
 
         window.onscroll = () =>{
 
-            this.scrollY > 100 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky"); 
+            this.scrollY > 50 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky"); 
 
             var percent = Math.round((h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 10);
             if(percent <=3 ){
@@ -60,7 +60,9 @@
     })
     
     $("li.has-children > a").click(function(e){
-        e.preventDefault();
+        if(window.innerWidth <= 991){
+            e.preventDefault();
+        }
         $(this).next(".sub-menu").slideToggle("100")
     
     })
