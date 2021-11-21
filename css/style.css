@@ -437,7 +437,7 @@ button {
 }
 
 .register-btn:hover,
-.chat-btn{
+.chat-btn:hover{
     color: #fff;
 }
 
