@@ -21,9 +21,7 @@
     var path = window.location.pathname;
     var page = path.split("/").pop();
 
-    console.log(path);
-
-    if(page == "index.html"){
+    if(page == "index.html" || path == "/"){
         
         var h = document.documentElement, 
         b = document.body,
