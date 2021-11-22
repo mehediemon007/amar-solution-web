@@ -21,8 +21,11 @@
     var path = window.location.pathname;
     var page = path.split("/").pop();
 
+    if(page == ""){
+        page = home
+    }
 
-    if(page =='index.html' || page == "" || page == "/"){
+    if(page =='index.html' || page == "home"){
         
         var h = document.documentElement, 
         b = document.body,
