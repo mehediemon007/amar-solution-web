@@ -313,7 +313,7 @@ button {
 .ams-banner .banner-content{
     position: absolute;
     width: 100%;
-    top: 35%;
+    top: 33%;
     left: 25%;
     transform: translate(-25%, -35%);
 }
