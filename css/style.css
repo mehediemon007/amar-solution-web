@@ -251,10 +251,6 @@ button {
     border-bottom: 1px solid #d5d5d5;
 }
 
-.ams-nav-wrapper.sticky .nav-menu li a{
-    padding: 16px 0;
-}
-
 .nav-toggle{
     width: 40px;
     height: 40px;

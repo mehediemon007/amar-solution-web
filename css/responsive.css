@@ -62,6 +62,10 @@
         margin: 0 16px;
         transition: all var(--transition);
     }
+
+    .ams-nav-wrapper.sticky .nav-menu li a{
+        padding: 16px 0;
+    }
     
     .nav-menu li a::before{
         position: absolute;
@@ -136,6 +140,7 @@
     .sub-menu li a:hover{
         transform: translateX(10px);
     }
+
 }
 
 /* Max Width 1199px */
@@ -236,6 +241,10 @@
     
     .sub-menu li a {
         margin-left: 32px;
+    }
+
+    .ams-nav-wrapper.sticky{
+        padding: 16px 0;
     }
 
     /* Mobile Nav End */
