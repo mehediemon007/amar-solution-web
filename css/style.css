@@ -232,7 +232,7 @@ button {
 
 .ams-nav-wrapper{
     width: 100%;
-    padding: 30px 50px;
+    padding: 0 50px;
     background-color: #fff;
     border-bottom: 1px solid transparent;
     transition: all var(--transition) linear;
@@ -248,8 +248,11 @@ button {
     position:fixed;
     top: 0;
     background-color: #fff;
-    padding: 10px 50px;
     border-bottom: 1px solid #d5d5d5;
+}
+
+.ams-nav-wrapper.sticky .nav-menu li a{
+    padding: 16px 0;
 }
 
 .nav-toggle{
@@ -346,7 +349,7 @@ button {
     display: block;
     font-size: 18px;
     font-weight: var(--font-weight-medium);
-    padding: 20px 16px;
+    padding: 16px;
     background-color: #fff;
 }
 

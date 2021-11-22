@@ -37,7 +37,7 @@
                 document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.'+ ( percent + 2 ) + ')';
             }
             else if(percent >=4 && percent <= 6){
-                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.9' + ')';
+                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.8' + ')';
             }
             else if( percent ==8){
                 document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.4'+ ')';
