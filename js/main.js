@@ -21,8 +21,10 @@
     var path = window.location.pathname;
     var page = path.split("/").pop();
 
-    if(page =='index.html' || page == "amar-solution-web"){
+    console.log(page);
 
+    if(page =='index.html' || page == "amar-solution-web"){
+        
         var h = document.documentElement, 
         b = document.body,
         st = 'scrollTop',
