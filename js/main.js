@@ -21,6 +21,8 @@
     var path = window.location.pathname;
     var page = path.split("/").pop();
 
+    console.log(path);
+
     if(page == "index.html"){
         
         var h = document.documentElement, 
