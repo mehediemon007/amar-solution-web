@@ -1,3 +1,14 @@
+/* Min Width 1400px */
+@media only screen and (min-width:1400px){
+    .mega-menu{
+        padding: 80px 450px;
+    }
+
+    .mega-menu li a{
+        width: 250px;
+    }
+}
+
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
 
@@ -57,12 +68,12 @@
         font-size: 20px;
         font-weight: var(--font-weight-medium);
         color: var(--text-color);
-        padding: 30px 0;
+        padding: 32px 0;
         margin: 0 16px;
         transition: all var(--transition);
     }
 
-    .ams-nav-wrapper.sticky .nav-menu + li a{
+    .ams-nav-wrapper.sticky .nav-menu li a{
         padding: 16px 0;
     }
     
@@ -103,7 +114,7 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
         width: 100vw;
-        padding: 80px 450px;
+        padding: 80px 50px;
     }
 
     .nav-menu li a:active + .mega-menu{
@@ -118,8 +129,8 @@
     }
     
     .mega-menu li a{
-        width: 250px;
-        padding: 3px 0;
+        width: 150px;
+        padding: 3px 0 !important;
     }
     
     .sub-menu li a span{
@@ -168,7 +179,7 @@
     }
 
     .ams-nav-wrapper{
-        padding: 24px 50px;
+        padding: 15px 50px;
     }
 
     .ams-story {
@@ -185,7 +196,7 @@
         position: absolute;
         display: none;
         width: 100%;
-        top:78px;
+        top:66px;
         left: 0;
         background-color: #fff;
         padding: 24px 50px;
@@ -200,7 +211,7 @@
 
     .nav-toggle.toggle-2{
         position: absolute;
-        top: 24px;
+        top: 16px;
         right: 50px;
         transition: var(--transition);
     }
@@ -242,7 +253,7 @@
     }
 
     .ams-nav-wrapper.sticky{
-        padding: 16px 0;
+        padding: 16px 50px;
     }
 
     /* Mobile Nav End */
