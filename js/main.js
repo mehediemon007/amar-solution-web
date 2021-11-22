@@ -34,7 +34,7 @@
 
             var percent = Math.round((h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 10);
             if(percent ==1 ){
-                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.2' + ')';
+                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.15' + ')';
             }
             else if(percent >=3 && percent <= 6){
                 document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.5' + ')';
