@@ -22,7 +22,7 @@
     console.log(path);
     var page = path.split("/").pop();
 
-    if(page == "index.html" || path == "/"){
+    if(page == "index.html" || path == "/amar-solution-web/"){
         
         var h = document.documentElement, 
         b = document.body,
