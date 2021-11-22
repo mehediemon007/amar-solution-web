@@ -34,10 +34,10 @@
 
             var percent = Math.round((h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 10);
             if(percent <=3 ){
-                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.'+ ( percent + 2 ) + ')';
+                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.2' + ')';
             }
             else if(percent >=4 && percent <= 6){
-                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.8' + ')';
+                document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.6' + ')';
             }
             else if( percent ==8){
                 document.querySelector("body").style.backgroundColor = 'rgba(' + 10 + ', ' + 149 + ', ' + 249 + ', ' + '.4'+ ')';
