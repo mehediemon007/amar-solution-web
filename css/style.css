@@ -192,6 +192,11 @@ button {
     padding: 80px 0;
 }
 
+.text-black{
+    color: #000;
+    font-weight: var(--font-weight-medium);
+}
+
 .sec-spacer{
     padding: 100px 0;
 }

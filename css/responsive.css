@@ -160,6 +160,10 @@
         margin: 10px 0 35px;
         background-position: left;
     }
+
+    .single-price-card{
+        padding: 40px 32px;
+    }
 }
 
 /* Max Width 991px */
