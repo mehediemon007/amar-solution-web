@@ -21,7 +21,7 @@
     var path = window.location.pathname;
     var page = path.split("/").pop();
 
-    console.log(page);
+    console.log("/");
 
     if(page =='index.html' || page == "amar-solution-web"){
         
