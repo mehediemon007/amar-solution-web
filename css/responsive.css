@@ -12,10 +12,6 @@
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
 
-    .ams-banner .banner-content{
-        max-width: 580px;
-    }
-
     .px-0{
         padding: 0;
     }
@@ -44,6 +40,10 @@
 
 /* Min Width 992px */
 @media only screen and (min-width:992px){
+
+    .ams-banner .banner-content{
+        max-width: 580px;
+    }
 
     /* Navbar  */
 
@@ -165,6 +165,10 @@
 /* Max Width 991px */
 @media only screen and (max-width:991px){
 
+    h1{
+        font-size: 50px;
+    }
+
     h2{
         font-size: 36px;
     }
@@ -176,6 +180,11 @@
     .ams-banner{
         height: 0;
         padding: 300px 0;
+    }
+
+    .ams-banner .banner-content{
+        width: 650px;
+        top: 30%;
     }
 
     .ams-nav-wrapper{
@@ -253,7 +262,7 @@
     }
 
     .ams-nav-wrapper.sticky{
-        padding: 16px 50px;
+        padding: 12px 50px;
     }
 
     /* Mobile Nav End */
@@ -271,6 +280,17 @@
 
 /* Max Width 767px */
 @media only screen and (max-width:767px){
+
+    .ams-banner{
+        background-position: left;
+    }
+
+    .ams-banner .banner-content{
+        width: 85%;
+        left: 32%;
+        text-align: center;
+    }
+
     .single-feature{
         padding: 0;
     }
@@ -286,6 +306,20 @@
 
 /* Max Width 480px */
 @media only screen and (max-width:480px){
+
+    h1{
+        font-size: 40px;
+    }
+
+    .ams-banner{
+        background-position: 22%;
+    }
+
+    .ams-banner h5{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
     h2{
         font-size: 30px;
     }
@@ -305,8 +339,17 @@
     }
 }
 
-/* Max Width 320px */
+/* Max Width 380px */
 @media only screen and (max-width:380px){
+
+    h1{
+        font-size: 30px;
+    }
+
+    .ams-banner h5{
+        font-size: 16px;
+    }
+
     th,td{
         padding: 5px !important;
     }
