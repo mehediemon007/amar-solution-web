@@ -30,7 +30,7 @@
 
         window.onscroll = () =>{
 
-            this.scrollY > 50 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky"); 
+            this.scrollY > 80 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky"); 
 
             var percent = Math.round((h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 10);
             if(percent <=3 ){
