@@ -280,6 +280,20 @@
         margin-bottom: 30px;
 
     }
+
+    .contact-btn{
+        display: inline-block;
+        width: 120px !important;
+        height:50px;
+        color: #fff;
+        background-color: var(--primary-color);
+        border:1px solid var(--primary-color);
+        border-radius: 5px;
+        text-align: center;
+        line-height: 50px;
+        padding: 0 !important;
+        margin-top: 16px;
+    }
 }
 
 /* Max Width 767px */
