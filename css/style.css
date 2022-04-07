@@ -92,6 +92,7 @@ ul {
 li{
     list-style: none;
     font-family: var(--body-font);
+    color: var(--text-color);
 }
 
 a{
