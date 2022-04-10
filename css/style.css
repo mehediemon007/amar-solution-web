@@ -451,10 +451,12 @@ button {
     margin: 5px 0 8px;
 }
 
+
 .ams-customer img{
     width: 100px !important;
     border-radius: 50%;
-    margin-bottom: 8px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 /* Newsletter */
