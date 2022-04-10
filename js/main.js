@@ -148,6 +148,14 @@
 
 ;(function($){
 
+   if($(".ams-reviews").length){
+     $(".ams-reviews").owlCarousel({
+       items:1,
+       nav:true,
+       navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+     })
+   }
+
     $(".toggle-2").click(function(){
         $(".ams-main-nav").slideToggle("100");
     })
@@ -161,3 +169,5 @@
     })
 
 })(jQuery);
+
+AOS.init();
