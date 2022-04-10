@@ -154,7 +154,8 @@
        nav:true,
        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
        autoplay:true,
-       autoplayTimeout:3000
+       autoplayTimeout:2000,
+       smartSpeed:3000
      })
    }
 
