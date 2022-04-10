@@ -82,8 +82,16 @@
         transition: all var(--transition);
     }
 
+    .header-main .nav-menu li a{
+        color: #fff;
+    }
+
     .ams-nav-wrapper.sticky .nav-menu li a{
         padding: 20px 0;
+    }
+
+    .header-main .ams-nav-wrapper.sticky .nav-menu li a{
+        color: var(--primary-color);
     }
     
     .nav-menu li a::before{

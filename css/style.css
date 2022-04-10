@@ -244,7 +244,7 @@ button {
 .header-main .ams-nav-wrapper{
     position: fixed;
     /* background-color: #F5AF1B; */
-    background-color: #12dddd;
+    background-color: var(--primary-color);
 }
 
 .ams-nav-wrapper.sticky{
@@ -259,9 +259,9 @@ button {
     width: 40px;
     height: 40px;
     font-size: 24px;
-    color: #fff;
+    color: var(--primary-color);
     margin-left: 30px;
-    background-color:var(--primary-color);
+    background-color: #fff;
     border-radius: 5px;
     text-align: center;
     line-height: 40px;
@@ -333,7 +333,7 @@ button {
 /* Category */
 
 .single-category{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-radius: 5px;
     transition: box-shadow var(--transition);
 }
@@ -342,14 +342,23 @@ button {
     box-shadow: 0 0 50PX rgb(36 62 139);
 }
 
+.category-image{
+    overflow: hidden;
+}
+
 .category-image img{
     border-radius: 5px 5px 0 0;
+    transition: var(--transition);
+}
+
+.category-image:hover img{
+    transform: scale(1.1) translateY(-10px);
 }
 
 .category-image span{
     display: block;
-    font-size: 18px;
-    font-weight: var(--font-weight-medium);
+    font-size: 24px;
+    font-weight: var(--font-weight-bold);
     padding: 16px;
     background-color: #fff;
     border-radius: 0 0 5px 5px;
@@ -611,13 +620,14 @@ td a{
     background-color:#fff;
     text-align: center;
     border-radius: 50%;
-    box-shadow: 3px 7px 10px rgba(0 0 0 / 80%);
+    border: 1px solid var(--primary-color);
+    /* box-shadow: 3px 7px 10px rgba(0 0 0 / 80%); */
     margin-right: 10px;
-    transition: var(--transition);
+    transition: .8s;
 }
 
 .social-links a:hover{
-    transform: translateY(-8px);
+    transform: rotate(360deg)
 }
 
 .footer-list a{
