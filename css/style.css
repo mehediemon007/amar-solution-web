@@ -243,7 +243,8 @@ button {
 
 .header-main .ams-nav-wrapper{
     position: fixed;
-    background-color: #F5AF1B;
+    /* background-color: #F5AF1B; */
+    background-color: #12dddd;
 }
 
 .ams-nav-wrapper.sticky{
@@ -597,6 +598,10 @@ td a{
     margin-bottom: 20px;
 }
 
+.social-links{
+    margin-top: 8px;
+}
+
 .social-links a{
     display: inline-block;
     width: 40px;
@@ -608,6 +613,11 @@ td a{
     border-radius: 50%;
     box-shadow: 3px 7px 10px rgba(0 0 0 / 80%);
     margin-right: 10px;
+    transition: var(--transition);
+}
+
+.social-links a:hover{
+    transform: translateY(-8px);
 }
 
 .footer-list a{
