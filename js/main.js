@@ -151,11 +151,12 @@
    if($(".ams-reviews").length){
      $(".ams-reviews").owlCarousel({
        items:1,
+       loop:true,
        nav:true,
        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
        autoplay:true,
-       autoplayTimeout:2000,
-       smartSpeed:3000
+       autoplayTimeout:3000,
+       smartSpeed:2000
      })
    }
 
