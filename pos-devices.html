@@ -98,95 +98,488 @@
         <section class="ams-device pt-200 pt-mb-80 pb-60">
             <div class="container">
                 <div class="row">
-                    <div class="filtered-products">
-                        <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/pos-printer2.jpeg" alt="Pos Printer"/>
+                    <div class="col-2">
+                        <ul class="nav ams-product-tab-nav" id="ReviewTab" role="tablist">
+                            <li role="presentation">
+                              <a class="active" id="pos-tab" data-bs-toggle="pill" href="#pos" role="tab" aria-controls="pos" aria-selected="false">Pos Devices</a>
+                            </li>
+                            <li role="presentation">
+                              <a id="barprint-tab" data-bs-toggle="pill" href="#barprint" role="tab" aria-controls="barprint" aria-selected="false">Barcode Printer</a>
+                            </li>
+                            <li role="presentation">
+                              <a id="barscan-tab" data-bs-toggle="pill" href="#barscan" role="tab" aria-controls="barscan" aria-selected="false">Barcode Scanner</a>
+                            </li>
+                            <li role="presentation">
+                              <a id="rollpaper-tab" data-bs-toggle="pill" href="#rollpaper" role="tab" aria-controls="rollpaper" aria-selected="false">Roll Paper</a>
+                            </li>
+                            <li role="presentation">
+                              <a id="cash-drawer-tab" data-bs-toggle="pill" href="#cash-drawer" role="tab" aria-controls="cash-drawer" aria-selected="false">Cash Drawer</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-10">
+                        <div class="tab-content ams-product-tab-content" id="ReviewTabContent">
+                            <div class="tab-pane fade show active" id="pos" role="tabpanel" aria-labelledby="pos-tab">
+                                <div class="filtered-products">
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/pos-printer2.jpeg" alt="Pos Printer"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/pos-printer3.png" alt="Pos Printer">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/pos-printer (2).webp" alt="Pos printer"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/pos-printer.webp" alt="Pos Printer"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp laptop">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div> -->
                                 </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
-                                    <p class="price"><b>Tk. 1,12,290</b></p>
+                            </div>
+                            <div class="tab-pane fade" id="barprint" role="tabpanel" aria-labelledby="barprint-tab">
+                                <div class="filtered-products">
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-print.jpg" alt="Barcode Print"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-print1.jpg" alt="Barcode Print">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-gun2.jpg" alt="Bar code"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-gun3.jpg" alt="Barcode gun"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp laptop">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div> -->
                                 </div>
-                            </a>
+                            </div>
+                            <div class="tab-pane fade" id="barscan" role="tabpanel" aria-labelledby="barscan-tab">
+                                <div class="filtered-products">
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-gun.jpg" alt="Barcode Gun"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-gun1.jpg" alt="Barcode Gun">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-gun2.jpg" alt="Bar code"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/barcode-gun3.jpg" alt="Barcode gun"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp laptop">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="rollpaper" role="tabpanel" aria-labelledby="rollpaper-tab">
+                                <div class="filtered-products">
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/roll-paper1.png" alt="Roll Paper"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/roll-paper2.jpg" alt="Roll paper"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/roll-paper3.jpg" alt="Roll Paper"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/roll-paper4.webp" alt="Roll paper">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp laptop">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="cash-drawer" role="tabpanel" aria-labelledby="cash-drawer-tab">
+                                <div class="filtered-products">
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/cash-drawer.jpg" alt="Cash Drawer"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/cash-drawer1.jpg" alt="Cash Drawer"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/cash-drawer2.jpg" alt="Cash Drawer"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/cash-drawer3.jpg" alt="Cash Drawer">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp laptop">
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Galaxy Book Flex-2</p>
+                                                <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-product">
+                                        <a href="single-product.html">
+                                            <div class="product-image">
+                                                <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
+                                            </div>
+                                            <div class="product-content">
+                                                <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
+                                                <p class="price"><b>Tk. 1,12,290</b></p>
+                                            </div>
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
                         </div>
-                        <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/pos-printer3.png" alt="Pos Printer">
-                                </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Galaxy Book Flex-2</p>
-                                    <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/pos-printer (2).webp" alt="Pos printer"/>
-                                </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
-                                    <p class="price"><b>Tk. 1,12,290</b></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/pos-printer.webp" alt="Pos Printer"/>
-                                </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
-                                    <p class="price"><b>Tk. 1,12,290</b></p>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/hp-laptop.jpg" alt="Hp laptop">
-                                </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Galaxy Book Flex-2</p>
-                                    <p class="price"><span><b>Tk. 1,22,900</b><del>Tk. 1,32,000</del></span><span class="off-tag">8.7% Off</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
-                                </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
-                                    <p class="price"><b>Tk. 1,12,290</b></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
-                                </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
-                                    <p class="price"><b>Tk. 1,12,290</b></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="single-product">
-                            <a href="single-product.html">
-                                <div class="product-image">
-                                    <img src="images/products/hp-laptop.jpg" alt="Hp Laptop"/>
-                                </div>
-                                <div class="product-content">
-                                    <p class="product-title">Samsung Z Flip-3 Mate Black With 8/256 GB Storage</p>
-                                    <p class="price"><b>Tk. 1,12,290</b></p>
-                                </div>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
             </div>
