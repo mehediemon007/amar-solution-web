@@ -68,6 +68,7 @@
     }
     
     .nav-menu li{
+        position: relative;
         display: inline-block;
     }
     
@@ -114,7 +115,7 @@
         position: absolute;
         top: 100%;
         right: 4%;
-        width: 250px;
+        width: 270px;
         padding: 16px 20px;
         background-color: #fff;
         border-radius: 5px;
@@ -372,6 +373,11 @@
 
     .ams-main-nav{
         padding: 24px;
+    }
+
+    .single-social-card{
+        gap: 8px;
+        padding: 16px 20px;
     }
 }
 
