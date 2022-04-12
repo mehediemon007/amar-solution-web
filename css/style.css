@@ -375,7 +375,7 @@ button {
     background-color: #fff;
     padding: 32px 24px;
     gap: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 25PX rgb(36 62 139);
     transition: all var(--transition);
 }
