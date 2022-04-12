@@ -140,9 +140,10 @@
     }
     
     .sub-menu li a{
-      padding: 10px 0;
-      align-items: center;
-      transition: var(--transition);
+        color: var(--primary-color) !important;
+        padding: 10px 0;
+        align-items: center;
+        transition: var(--transition);
     }
     
     .mega-menu li a{
