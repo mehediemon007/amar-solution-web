@@ -268,9 +268,9 @@ button {
     cursor: pointer;
 }
 
-.nav-toggle:hover{
+/* .nav-toggle:hover{
     background-color: var(--secondary-color);
-}
+} */
 
 /* Sidebar Nav */
 
