@@ -67,7 +67,7 @@ h1{
 }
 
 h2{
-    font-size: 35px;
+    font-size: 28px;
     font-weight: var(--font-weight-bold);
 }
 
@@ -305,6 +305,11 @@ button {
 .sidebar-nav .ams-address a{
     padding-bottom: 16px;
 }
+
+.ams-address span{
+    font-size: 18px;
+}
+
 
 /* Banner */
 
@@ -663,11 +668,17 @@ td a{
    grid-template-columns: 10px 1fr;
    grid-column-gap: 16px;
    align-items: baseline;
+   font-size: 18px;
 }
 
 .copyright{
     color: var(--primary-color);
     padding-bottom: 20px;
+}
+
+.sidebar-nav p,
+.footer-support p{
+    font-size: 18px;
 }
 
 /* Chat Btn */
