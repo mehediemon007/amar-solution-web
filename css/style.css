@@ -1276,7 +1276,7 @@ td a{
 
 .single-service ul li{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 5px;
     margin: 5px 0;
 }
