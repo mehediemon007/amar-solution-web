@@ -1263,6 +1263,10 @@ td a{
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.single-service:last-child{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
 .single-service .service-list{
     display: grid;
     grid-template-columns: repeat(4,1fr);
