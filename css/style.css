@@ -609,6 +609,124 @@ td a{
     font-size: 18px;
 }
 
+/* Price Update */
+
+.single-price-plan{
+    position: relative;
+    width: 80%;
+    background-color: var(--white-color);
+    padding: 16px 32px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+.single-price-plan h2{
+    font-size: 1.75rem;
+    font-weight: var(--font-weight-normal);
+    text-align: center;
+}
+
+.single-price-plan h4{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    color: var(--white-color);
+    background-color: transparent;
+    border: 5px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 90px;
+    margin: 16px auto;
+}
+
+.standard h4{
+    border-color: navy;
+}
+
+.premium h4{
+    border-color: green;
+}
+
+.single-price-plan sub{
+    position: absolute;
+    font-size: .95rem;
+    bottom: 32px;
+    left: 18px;
+}
+
+.plan-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-list li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+li .fa-check{
+    font-size: 1.10rem;
+    color: green;
+}
+
+li .fa-times{
+    font-size: 1.10rem;
+    color: red;
+}
+
+.shop-btn{
+    display: inline-block;
+    width: max-content;
+    height: 40px;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 0 16px;
+    margin: 10px 0;
+}
+
+.standard .shop-btn{
+    background-color: navy;
+}
+
+.premium .shop-btn{
+    background-color: green;
+}
+
+.plan-badge{
+    position: absolute;
+    left: -192px;
+    top: 180px;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    transform: rotate(-90deg);
+    line-height: 50px;
+}
+
+.standard .plan-badge{
+    background-color: navy;
+}
+
+.premium .plan-badge{
+    background-color: green;
+}
+
+.plan-badge p{
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-medium);
+    color: #fff;
+    letter-spacing: 1px;
+}
+
 /* Device */
 
 .devices p{
