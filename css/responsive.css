@@ -16,6 +16,11 @@
     .mega-menu li a{
         width: 250px;
     }
+
+    .plan-badge {
+        right:150px;
+        top: 45%;
+    }
 }
 
 /* Min Width 1200px */

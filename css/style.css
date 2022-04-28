@@ -611,14 +611,34 @@ td a{
 
 /* Price Update */
 
+.price-plans{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+
 .single-price-plan{
     position: relative;
-    width: 80%;
+    width: 90%;
     background-color: var(--white-color);
     padding: 16px 32px;
     box-shadow: 0 0 20px rgb(0 0 0 / 25%);
     border-radius: 10px;
     margin-left: 20%;
+}
+
+.plan-badge {
+    position: absolute;
+    right: 95px;
+    top: 45%;
+    width: max-content;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    transform: rotate(-90deg);
+    line-height: 50px;
+    padding: 0 24px;
 }
 
 .single-price-plan h2{
@@ -652,13 +672,14 @@ td a{
     position: absolute;
     font-size: .95rem;
     bottom: 32px;
-    left: 18px;
+    left: 12px;
 }
 
 .plan-list{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 24px;
 }
 
 .plan-list li{
@@ -697,19 +718,6 @@ li .fa-times{
 
 .premium .shop-btn{
     background-color: green;
-}
-
-.plan-badge{
-    position: absolute;
-    left: -192px;
-    top: 180px;
-    width: 100%;
-    height: 50px;
-    background-color: red;
-    border-radius: 10px 10px 0 0;
-    text-align: center;
-    transform: rotate(-90deg);
-    line-height: 50px;
 }
 
 .standard .plan-badge{
