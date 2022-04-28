@@ -695,7 +695,7 @@ td a{
     margin-bottom: 5px;
 }
 
-li .fa-check{
+.plan-list li .fa-check{
     font-size: 1.10rem;
     color: green;
 }
