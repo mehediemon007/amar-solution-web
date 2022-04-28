@@ -647,7 +647,7 @@ td a{
 
 .single-price-plan h2{
     font-size: 1.75rem;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-medium);
     text-align: center;
 }
 
