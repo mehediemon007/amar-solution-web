@@ -823,6 +823,11 @@ li .fa-times{
     z-index: 10;
 }
 
+.fb-chat{
+    left: 50px;
+    right: auto;
+}
+
 .chat-btn{
     display: inline-block;
     width: 70px;
