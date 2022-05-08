@@ -234,7 +234,7 @@ button {
 .ams-nav-wrapper{
     position: relative;
     width: 100%;
-    padding: 0 50px;
+    padding: 0 40px;
     background-color: #fff;
     border-bottom: 1px solid transparent;
     transition: all var(--transition) linear;
@@ -1424,4 +1424,16 @@ li .fa-times{
 
 .single-service ul li i{
     font-size: 11px;
+}
+
+/* Login */
+
+.login-btn{
+    display: inline-block;
+    width: 80px;
+    color: var(--text-color) !important;
+    background-color: #fff;
+    padding: 5px 0 !important;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
