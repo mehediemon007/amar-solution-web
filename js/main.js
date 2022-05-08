@@ -165,11 +165,10 @@
     })
     
     $("li.has-children > a").click(function(e){
+        e.preventDefault();
         if(window.innerWidth <= 991){
-            e.preventDefault();
+          $(this).next(".sub-menu").slideToggle("100")   
         }
-        $(this).next(".sub-menu").slideToggle("100")
-    
     })
 
 })(jQuery);
