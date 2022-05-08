@@ -182,7 +182,17 @@
         transform: translateX(10px);
     }
 
+    /* Login */
+
     .login-btn{
+        display: inline-block;
+        width: 80px;
+        color: var(--text-color) !important;
+        background-color: #fff;
+        padding: 5px 0 2px !important;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        line-height: 22px;
         text-align: center;
     }
 
@@ -357,8 +367,8 @@
 
     }
 
-    .contact-btn{
-        display: none !important;
+    /* .contact-btn{
+        display: block;
         width: 120px !important;
         height:50px;
         color: #fff;
@@ -369,7 +379,7 @@
         line-height: 50px;
         padding: 0 !important;
         margin-top: 16px;
-    }
+    } */
 
     .contact-btn:hover{
         color: #fff;
