@@ -313,6 +313,11 @@
         bottom: 20px;
     }
 
+    .fb-chat{
+        right: auto;
+        left: 25px;
+    }
+
     .single-price-card{
         margin-bottom: 30px;
 
@@ -420,7 +425,7 @@
 
     .ams-banner .banner-content{
         text-align: center;
-        left: 26%;
+        left: 25%;
     }
 
     .banner-content h2{
