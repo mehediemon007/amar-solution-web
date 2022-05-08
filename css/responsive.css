@@ -481,6 +481,10 @@
     .plan-badge{
         right: 27%;
     }
+
+    .ams-logo img{
+        width: 190px;
+    }
 }
 
 /* Max Width 380px */
