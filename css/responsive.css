@@ -200,6 +200,19 @@
     .single-price-card{
         padding: 40px 32px;
     }
+
+    .price-plans{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .single-price-plan{
+        margin-bottom: 32px;
+        margin-left: 10%;
+    }
+
+    .plan-badge{
+        right: 185px;
+    }
 }
 
 /* Max Width 991px */
@@ -211,6 +224,10 @@
 
     h2{
         font-size: 36px;
+    }
+
+    .ams-main-content{
+        margin-top: 90px;
     }
 
     .sec-title{
@@ -238,6 +255,10 @@
 
     .pt-mb-80{
         padding-top: 80px;
+    }
+
+    .ams-price{
+        padding-top: 80px !important;
     }
     
     /* Mobile Nav */
@@ -308,6 +329,15 @@
 
     /* Mobile Nav End */
 
+    .single-price-plan{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plan-badge{
+        right: 85px;
+    }
+
     .ams-chat{
         right: 25px;
         bottom: 20px;
@@ -324,7 +354,7 @@
     }
 
     .contact-btn{
-        display: inline-block;
+        display: none !important;
         width: 120px !important;
         height:50px;
         color: #fff;
@@ -335,6 +365,10 @@
         line-height: 50px;
         padding: 0 !important;
         margin-top: 16px;
+    }
+
+    .contact-btn:hover{
+        color: #fff;
     }
 }
 
@@ -362,6 +396,14 @@
     th,td{
         padding: 10px !important;
     }
+
+    .price-plans{
+        grid-template-columns: 1fr;
+    }
+
+    .plan-badge{
+        right: 52%;
+    }
 }
 
 /* Max Width 480px */
@@ -369,6 +411,10 @@
 
     h1{
         font-size: 40px;
+    }
+
+    .ams-main-content{
+        margin-top: 60px;
     }
 
     .ams-banner{
@@ -407,6 +453,15 @@
         gap: 8px;
         padding: 16px 20px;
     }
+
+    .single-price-plan{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .plan-badge{
+        right: 40%;
+    }
 }
 
 /* Max Width 414px */
@@ -417,6 +472,10 @@
 
     .banner-content h2{
         margin-left: 30%;
+    }
+
+    .plan-badge{
+        right: 30%;
     }
 }
 
@@ -450,6 +509,10 @@
 
     th{
         font-size: 18px;
+    }
+
+    .plan-badge{
+        right: 19%;
     }
 }
 
@@ -489,5 +552,9 @@
         top: 24px;
         right: 10px;
         margin-left: 5px;
+    }
+
+    .plan-badge{
+        right: 5%;
     }
 }
