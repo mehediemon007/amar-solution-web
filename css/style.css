@@ -1445,6 +1445,10 @@ li .fa-times{
     margin-top: 16px;
 }
 
+.mobile-payment label{
+    display: block;
+}
+
 .pay-cards, .order-summery .order-total {
     border-top: 1px solid #dedede;
     padding-top: 16px;
@@ -1473,8 +1477,41 @@ li .fa-times{
     outline: none;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+}
+
 .single-input i {
     position: absolute;
-    top: 50px;
+    top: 52px;
     left: 19px;
+}
+
+.order-summery {
+    margin-top: 38px;
+}
+
+.order-summery .order-total {
+    margin-top: 16px;
+}
+
+.order-total p {
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    margin-bottom: 10px;
+}
+
+.cart-btn {
+    display: inline-block;
+    min-width: 150px;
+    height: 40px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 16px;
+    padding: 0 16px;
 }
