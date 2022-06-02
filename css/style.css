@@ -1612,7 +1612,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: grid;
     grid-template-columns: 100px 1fr;
     border-bottom: 1px solid #e6e6e6;
-    padding: 1rem 0;
+    padding: 1rem 5px;
     text-align: right;
     align-items: center;
 }
