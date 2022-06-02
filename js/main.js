@@ -171,6 +171,18 @@
         }
     })
 
+    // Cart Click
+
+    if($(".ams-cart").length){
+
+      $(".ams-cart").on("click",function(){
+
+        $(".shopping-cart-popup").addClass("show");
+        
+      })
+
+    }
+
 })(jQuery);
 
 AOS.init();
