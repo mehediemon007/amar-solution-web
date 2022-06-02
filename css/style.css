@@ -1759,3 +1759,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .total-btn:hover{
     color: #fff;
 }
+
+.product-table::-webkit-scrollbar{
+    height: 3px;
+}
+
+.product-table::-webkit-scrollbar-track {
+    background: #d3d3d3;
+}
+
+.product-table::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}

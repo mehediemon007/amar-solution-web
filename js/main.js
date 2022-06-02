@@ -181,6 +181,12 @@
         
       })
 
+      $(".toggleicon").on("click",function(){
+
+        $(".shopping-cart-popup").removeClass("show");
+
+      })
+
     }
 
 })(jQuery);
