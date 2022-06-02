@@ -1528,7 +1528,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     right: 0;
     width: 80px;
     background-color: #fff;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 0  0 5px;
     box-shadow: 0 0 16px -1px rgb(0 0 0 / 75%);
     text-align: center;
     cursor: pointer;
@@ -1542,6 +1542,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 2px 5px;
     color: #fff;
     background-color: var(--primary-color);
+    border-bottom-left-radius: 5px;
 }
 
 .cart-total *{
