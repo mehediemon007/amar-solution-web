@@ -1591,6 +1591,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .shopping-cart-popup .cart-product-list {
     flex-direction: column;
+    height: calc(100vh - 235px);
+    overflow-y: auto;
+}
+
+.shopping-cart-popup .cart-product-list::-webkit-scrollbar{
+    width: 3px;
+}
+
+.shopping-cart-popup .cart-product-list::-webkit-scrollbar-track {
+    background: #d3d3d3;
+}
+
+.shopping-cart-popup .cart-product-list::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
 }
 
 .shopping-cart-popup .cart-product-item {
