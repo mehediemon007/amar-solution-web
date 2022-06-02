@@ -499,7 +499,7 @@
     }
 }
 
-/* Max Width 414px */
+/* Max Width 416px */
 @media only screen and (max-width:416px){
     .ams-banner .banner-content h1{
         font-size: 32px;
@@ -519,6 +519,17 @@
 
     .ams-main-nav{
         top: 73px;
+    }
+
+    /* Changed */
+
+    .shopping-cart-popup{
+        width: 100%;
+    }
+
+    .tab-content .product-content .price{
+        flex-direction: column-reverse;
+        align-items: flex-start;
     }
 }
 
@@ -557,11 +568,6 @@
 
     .plan-badge{
         right: 19%;
-    }
-
-    .tab-content .product-content .price{
-        flex-direction: column-reverse;
-        align-items: flex-start;
     }
 }
 
